@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg,#00faba, #5b548a);    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.board {
+    width: 100%;
+    margin: 10px auto 0;
+    border-radius: 20px;
+    padding: 30px 30px;
+    text-align: center;
+    color: #fff;
+}
+
+.board h1 {
+    font-size: 90px;
+    margin: 15px 50px;
+    font-weight: 700;
+    color: linear-gradient(135deg,#00faba, #5b548a);
+}
+
+.search {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-bottom: 5px;
+}
+
+.search input {
+    border: 0;
+    outline: 0;
+    background: #ffffff4f;
+    color: #555;
+    padding: 10px 10px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+.search button {
+    border: 0;
+    outline: 0;
+    background: #ffffff4f;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.search button:disabled {
+    background-color: #cccccc; 
+    color: #666666;
+    cursor: not-allowed;
+}
+
+.search button img {
+    width: 16px;
+    color: #ebfffc;
+}
+
+.weatherResult {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.board h2{
+    font-size: 60px;
+    margin-top: 30px;
+    font-weight: 200;
+}
+
+.card {
+    background: #ffffff4f;
+    color: #ffffff;
+    border-radius: 20px;
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+
+.card h2 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.card h3 {
+    font-size: 30px;
+    font-weight: 400;
+}
+.card img {
+    width: 150px;
+}
+
+.details {
+    margin-top: 10px;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    margin: 10px 10px;
+}
+
+.col img {
+    width: 40px;
+    margin: 5px;
+}
+
+.error h1{
+    font-size: 50px;
+    color: #5b548a;
+}
