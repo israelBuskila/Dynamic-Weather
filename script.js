@@ -12,7 +12,6 @@ if (document.readyState === 'loading') {  // Document is still loading
 }
 
 const getApiUrl = (city, params) => {
-    console.log(city, params)
     const urlObject = new URL(`${BASE_URL}/${city}`);
     Object.keys(params).forEach(key => {
         urlObject.searchParams.set(key, params[key]);
@@ -105,7 +104,7 @@ const getWeather = async () => {
     });
 
     const jsonRes = await fetchWeather(apiUrl);
-    console.log(jsonRes)
+  
     city.innerHTML = `<h2>${jsonRes.address.toUpperCase()}</h2>`;
     const days = jsonRes.days;
     for (let i = 0; i < 7; i++) {
