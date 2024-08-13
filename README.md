@@ -7,7 +7,7 @@
 This project provides a customizable weather widget that can be easily embedded into any webpage. The widget allows users to enter a city name or coordinates to fetch and display the average temperature, wind speed, and humidity for each day of the week over the next two weeks. Additionally, the widget includes an icon for each day that visually represents the current weather condition, such as sunny, cloudy, rainy, or snowy, providing users with a quick and intuitive overview of the forecast.
 
 
-![Alt text](public/demoProject2.png)
+![Alt text](public/demoEnglishSearch.png)
 
 
 
