@@ -1,5 +1,5 @@
 const WEATHER_DIV_ID = 'some kind of id' 
-const API_KEY = 'TH65PZJ35733S9RUR49TD2V7P'  || 'PUT_YOUR_KEY_HERE';
+const API_KEY = 'PUT_YOUR_KEY_HERE';
 const BASE_URL = 'https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline'
 const UNIT = "metric";//the default of this API is "US" unit;
 
