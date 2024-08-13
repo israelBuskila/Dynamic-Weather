@@ -114,3 +114,16 @@ Here’s an example of how your HTML file might look when embedding the weather 
 
 - **Path Adjustments:** Ensure that the paths to `styles.css` and `script.js` are correct based on your directory structure.
 - **Customization:** You can modify the CSS in `styles.css` to change the look and feel of the widget according to your needs.
+
+
+## Demo
+
+### Input Hebrew Field
+ ![Alt text](public/demoHebrewSearch.png)
+*Description: Shows the input field where users can enter city names in Hebrew.*
+
+### Input Coordinates Field
+ ![Alt text](public/coordinatesDemo.png)
+*Description: Shows the input field where users can enter coordinates.*
+
+
