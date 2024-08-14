@@ -26,10 +26,10 @@ This project provides a customizable weather widget that can be easily embedded 
 ### Step 1: create key for weather API
 
 1. go to https://www.visualcrossing.com/
-2. sign up (this is free)
-3. navigate to your account
-4. copy the key
-5. put the key in script.js file
+2. sign up (Free Account).
+3. navigate to your account.
+4. copy the key.
+5. put the key in script.js file.
 
 
 ![Alt text](public/put-your-key-here.png)
