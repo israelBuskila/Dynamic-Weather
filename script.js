@@ -3,14 +3,6 @@ const API_KEY = 'PUT_YOUR_KEY_HERE';
 const BASE_URL = 'https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline'
 const UNIT = "metric";//the default of this API is "US" unit;
 
-if (document.readyState === 'loading') {  // Document is still loading
-    document.addEventListener('DOMContentLoaded', function () {
-        createWeatherWidget(WEATHER_DIV_ID)
-    });
-} else {  // DOMContentLoaded already fired
-    createWeatherWidget(WEATHER_DIV_ID)
-}
-
 const getApiUrl = (city, params) => {
     const urlObject = new URL(`${BASE_URL}/${city}`);
     Object.keys(params).forEach(key => {
@@ -139,4 +131,12 @@ const getWeather = async () => {
         `;
         weatherContainer.appendChild(dayDiv);
     }
+}
+
+if (document.readyState === 'loading') {  // Document is still loading
+    document.addEventListener('DOMContentLoaded', function () {
+        createWeatherWidget(WEATHER_DIV_ID)
+    });
+} else {  // DOMContentLoaded already fired
+    createWeatherWidget(WEATHER_DIV_ID)
 }
